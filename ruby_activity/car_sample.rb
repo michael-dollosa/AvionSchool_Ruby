@@ -1,4 +1,4 @@
-class Car
+class CarSample
   def initialize(name, color)
     @name = name
     @color = color
@@ -9,5 +9,5 @@ class Car
   end
 end
 
-tesla = Car.new("teslala", "black")
+tesla = CarSample.new("teslala", "black")
 tesla.start
